@@ -1,0 +1,48 @@
+# Site wide configuration
+
+title:            Machine Learning India | Fostering data science and machine learning in India
+locale:           en_US
+url:              http://ml-india.org
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass 
+  line_numbers: butt
+
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Machine Learning India
+  avatar: logo.jpg
+  bio: "Fostering data science and machine learning in India"
+  disqus-shortname: ml-india
+  twitter: ml_india
+  facebook: 
+  google:
+    plus: 
+    analytics: UA-65998211-1
+    verify: 
+    ad-client:
+    ad-slot:
+  bing-verify: D81F4C18A6CB3018F64D7C827D953DFD
+  github: harshnisar/ml-india
+  instagram:
+  email: varun@aspiringminds.com
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

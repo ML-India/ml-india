@@ -1,0 +1,8 @@
+- name: "gender"
+  type: input
+
+- name: "skill"
+  type: input
+
+- name: "designation"
+  type: output
